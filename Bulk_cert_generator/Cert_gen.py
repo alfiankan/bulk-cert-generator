@@ -7,7 +7,20 @@ class Cert_gen:
     def check():
         return "Its Oke :)"
     def generate(format,template_path,details_path,output_path,prefix_name='cert_',style={'font_size':1.5,'font_color':(0,0,0),'x':15,'y':7}):
-
+        """
+        Required :
+        - format = png or pdf (String)
+        - template_path = certificate template path - image (String)
+        - details_path = excell file contains your certificate list
+        - output path = path to create and save certificate
+        Additional :
+        - prefix_name = file name prefix(String)
+        - Styling = {'font_size':1.5,'font_color':(0,0,0),'x':15,'y':7}
+        Simple Usage Example :
+            Cert_gen.Cert_gen.generate('png','tem.jpg','Daftar.xlsx','sertif')
+        Custom Usage Example :
+            Cert_gen.Cert_gen.generate('png','tem.jpg','Daftar.xlsx','sertif','cert101',{'font_size':1.5,'font_color':(0,0,0),'x':15,'y':7})
+        """
         font_size = style['font_size']
         font_color = style['font_color']
         coordinate_y_adjustment = style['x']

@@ -42,4 +42,7 @@ Second Column => identity (phone number, certificate id etc)
 
 Contact : mail@alfiankan.com
 
-<a href="https://www.buymeacoffee.com/alfiankann" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+# Buy me a Coffe
+
+https://saweria.co/encoding
+

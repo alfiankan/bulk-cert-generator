@@ -4,7 +4,7 @@ import img2pdf
 from PIL import Image
 import os
 class Cert_gen:
-    def generate(format,template_path,details_path,output_path,prefix_name,style):
+    def generate(format,template_path,details_path,output_path,prefix_name='cert_',style={'font_size':1.5,'font_color':(0,0,0),'x':15,'y':7}):
 
         font_size = style['font_size']
         font_color = style['font_color']

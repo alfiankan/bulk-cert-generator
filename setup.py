@@ -7,7 +7,7 @@ with open('HISTORY.md') as history_file:
     HISTORY = history_file.read()
 
 setup_args = dict(
-    name='Bulk-cert-generator',
+    name='Bulk_cert_generator',
     version='1.0.0',
     description='Easy to Make Multiple Certificate',
     long_description_content_type="text/markdown",

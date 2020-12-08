@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='Bulk_cert_generator',
-    version='1.0.1',
+    version='1.0.2',
     description='Easy to Make Multiple Certificate',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,

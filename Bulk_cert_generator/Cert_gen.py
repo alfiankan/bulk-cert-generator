@@ -23,8 +23,8 @@ class Cert_gen:
         """
         font_size = style['font_size']
         font_color = style['font_color']
-        coordinate_y_adjustment = style['x']
-        coordinate_x_adjustment = style['y']
+        coordinate_y_adjustment = style['y']
+        coordinate_x_adjustment = style['x']
 
         obj = openpyxl.load_workbook(details_path)
         sheet = obj.active
